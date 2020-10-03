@@ -1,0 +1,412 @@
+/*头部圆形滚动效果*/
+@keyframes first_circle{
+	from{
+		transform:translate(-200px,0);
+	}
+	to{
+		transform:translate(0,0);
+	}
+}
+.floor_1 .circle ul li:first-child p{
+	animation:first_circle 1s linear;
+}
+@keyframes first_ying{
+	from{
+		transform:translate(-200px,0);
+	}
+	to{
+		transform:translate(0,0);
+	}
+}
+.floor_1 .circle ul li:first-child b{
+	animation:first_ying 1s linear;
+}
+@keyframes yellow_circle{
+	from{
+		transform:translate(-350px,0);
+	}
+	to{
+		transform:translate(0,0);
+	}
+}
+.floor_1 .circle ul li.yellow p{
+	animation:yellow_circle 1.75s linear;
+}
+@keyframes yellow_ying{
+	from{
+		transform:translate(-350px,0);
+	}
+	to{
+		transform:translate(0,0);
+	}
+}
+.floor_1 .circle ul li.yellow b{
+	animation:yellow_ying 1.75s linear;
+}
+@keyframes blue_circle{
+	from{
+		transform:translate(-500px,0);
+	}
+	to{
+		transform:translate(0,0);
+	}
+}
+.floor_1 .circle ul li.blue p{
+	animation:blue_circle 2.5s linear;
+}
+@keyframes blue_ying{
+	from{
+		transform:translate(-500px,0);
+	}
+	to{
+		transform:translate(0,0);
+	}
+}
+.floor_1 .circle ul li.blue b{
+	animation:blue_ying 2.5s linear;
+}
+@keyframes red_circle{
+	from{
+		transform:translate(-650px,0);
+	}
+	to{
+		transform:translate(0,0);
+	}
+}
+.floor_1 .circle ul li.red p{
+	animation:red_circle 3.25s linear;
+}
+@keyframes red_ying{
+	from{
+		transform:translate(-650px,0);
+	}
+	to{
+		transform:translate(0,0);
+	}
+}
+.floor_1 .circle ul li.red b{
+	animation:red_ying 3.25s linear;
+}
+@keyframes orange_circle{
+	from{
+		transform:translate(-800px,0) rotate(0deg);
+	}
+	to{
+		transform:translate(0,0) rotate(360deg);
+	}
+}
+.floor_1 .circle ul li.orange p{
+	animation:orange_circle 4s linear;
+}
+@keyframes orange_ying{
+	from{
+		transform:translate(-800px,0);
+	}
+	to{
+		transform:translate(0,0);
+	}
+}
+.floor_1 .circle ul li.orange b{
+	animation:orange_ying 4s linear;
+}
+/*底部闪烁效果*/
+@keyframes foot_blink{
+	0%{
+		transform:rotate(0deg);
+		opacity:1;
+	}
+	20%{
+		transform:rotate(10deg);
+		opacity:0.2;
+	}
+	35%{
+		transform:rotate(20deg);
+		opacity:1;
+	}
+	50%{
+		transform:rotate(30deg);
+		opacity:0.2;
+	}
+	65%{
+		transform:rotate(10deg);
+		opacity:1;
+	}
+	80%{
+		transform:rotate(0deg);
+		opacity:0.2;
+	}
+	100%{
+		transform:rotate(-20deg);
+		opacity:1;
+	}
+}
+.floor_6 dl p:hover{
+	animation:foot_blink 0.5s linear;
+}
+/*中间圆跳动效果*/
+@keyframes middle_circle{
+	0%{
+		transform:translate(0,-300px);
+	}
+	30%{
+		transform:translate(0,158px);
+	}
+	50%{
+		transform:translate(0,0);
+	}
+	70%{
+		transform:translate(0px,158px) rotate(0deg);
+		opacity:1;
+	}
+	80%{
+		transform:translate(0px,0px) rotate(30deg);
+		opacity:0.2;
+	}
+	90%{
+		transform:translate(0px,0px) rotate(45deg);
+		opacity:1;
+	}
+	95%{
+		transform:translate(0px,0px) rotate(-45deg);
+		opacity:0.2;
+	}
+	95%{
+		transform:translate(0px,0px) rotate(0deg);
+		opacity:1;
+	}
+}
+/*.floor_2 .f_2_circle ul li:first-child p{
+	animation:middle_circle 2s ease-in-out;
+}*/
+.circle_1{
+	background-position:-1656px 0;
+	animation:middle_circle 2s ease-in-out;
+}
+@keyframes middle_circle_2{
+	0%{
+		transform:translate(0,-300px);
+	}
+	30%{
+		transform:translate(0,158px);
+	}
+	50%{
+		transform:translate(0,0);
+	}
+	70%{
+		transform:translate(0px,158px) rotate(0deg);
+		opacity:1;
+	}
+	80%{
+		transform:translate(0px,0px) rotate(30deg);
+		opacity:0.2;
+	}
+	90%{
+		transform:translate(0px,0px) rotate(45deg);
+		opacity:1;
+	}
+	95%{
+		transform:translate(0px,0px) rotate(-45deg);
+		opacity:0.2;
+	}
+	95%{
+		transform:translate(0px,0px) rotate(0deg);
+		opacity:1;
+	}
+}
+/*.floor_2 .f_2_circle ul li.f_2_2 p{
+	animation:middle_circle_2 2s ease-in-out;
+}*/
+.circle_2{
+	background-position:-1818px 0;
+	animation:middle_circle_2 2s ease-in-out;
+}
+@keyframes middle_circle_3{
+	0%{
+		transform:translate(0,-300px);
+	}
+	30%{
+		transform:translate(0,158px);
+	}
+	50%{
+		transform:translate(0,0);
+	}
+	70%{
+		transform:translate(0px,158px) rotate(0deg);
+		opacity:1;
+	}
+	80%{
+		transform:translate(0px,0px) rotate(30deg);
+		opacity:0.2;
+	}
+	90%{
+		transform:translate(0px,0px) rotate(45deg);
+		opacity:1;
+	}
+	95%{
+		transform:translate(0px,0px) rotate(-45deg);
+		opacity:0.2;
+	}
+	95%{
+		transform:translate(0px,0px) rotate(0deg);
+		opacity:1;
+	}
+}
+/*.floor_2 .f_2_circle ul li.f_2_3 p{
+	animation:middle_circle_3 2s ease-in-out;
+}*/
+.circle_3{
+	background-position:-1981px 0;
+	animation:middle_circle_3 2s ease-in-out;
+}
+@keyframes middle_circle_4{
+	0%{
+		transform:translate(0,-300px);
+	}
+	30%{
+		transform:translate(0,158px);
+	}
+	50%{
+		transform:translate(0,0);
+	}
+	70%{
+		transform:translate(0px,158px) rotate(0deg);
+		opacity:1;
+	}
+	80%{
+		transform:translate(0px,0px) rotate(30deg);
+		opacity:0.2;
+	}
+	90%{
+		transform:translate(0px,0px) rotate(45deg);
+		opacity:1;
+	}
+	95%{
+		transform:translate(0px,0px) rotate(-45deg);
+		opacity:0.2;
+	}
+	95%{
+		transform:translate(0px,0px) rotate(0deg);
+		opacity:1;
+	}
+}
+/*.floor_2 .f_2_circle ul li.f_2_4 p{
+	animation:middle_circle_4 2s ease-in-out;
+}*/
+.circle_4{
+	background-position:-2144px 0;
+	animation:middle_circle_4 2s ease-in-out;
+}
+@keyframes middle_circle_5{
+	0%{
+		transform:translate(0,-450px);
+	}
+	30%{
+		transform:translate(0,0px);
+	}
+	50%{
+		transform:translate(0,-158px);
+	}
+	70%{
+		transform:translate(0px,0px) rotate(0deg);
+		opacity:1;
+	}
+	80%{
+		transform:translate(0px,0px) rotate(30deg);
+		opacity:0.2;
+	}
+	90%{
+		transform:translate(0px,0px) rotate(45deg);
+		opacity:1;
+	}
+	95%{
+		transform:translate(0px,0px) rotate(-45deg);
+		opacity:0.2;
+	}
+	95%{
+		transform:translate(0px,0px) rotate(0deg);
+		opacity:1;
+	}
+}
+/*.floor_2 .f_2_circle ul li.f_2_5 p{
+	animation:middle_circle_5 2s ease-in-out;
+}*/
+.circle_5{
+	background-position:-1747px -149px;
+	animation:middle_circle_5 2s ease-in-out;
+}
+@keyframes middle_circle_6{
+	0%{
+		transform:translate(0px,-450px);
+	}
+	30%{
+		transform:translate(0px,0px);
+	}
+	50%{
+		transform:translate(0px,-158px);
+	}
+	70%{
+		transform:translate(0px,0px) rotate(0deg);
+		opacity:1;
+	}
+	80%{
+		transform:translate(0px,0px) rotate(30deg);
+		opacity:0.2;
+	}
+	90%{
+		transform:translate(0px,0px) rotate(45deg);
+		opacity:1;
+	}
+	95%{
+		transform:translate(0px,0px) rotate(-45deg);
+		opacity:0.2;
+	}
+	95%{
+		transform:translate(0px,0px) rotate(0deg);
+		opacity:1;
+	}
+}
+/*.floor_2 .f_2_circle ul li.f_2_6 p{
+	animation:middle_circle_6 2s ease-in-out;
+}*/
+.circle_6{
+	background-position:-1909px -149px;
+	animation:middle_circle_6 2s ease-in-out;
+}
+@keyframes middle_circle_7{
+	0%{
+		transform:translate(0,-450px);
+	}
+	30%{
+		transform:translate(0,0px);
+	}
+	50%{
+		transform:translate(0,-158px);
+	}
+	70%{
+		transform:translate(0px,0px) rotate(0deg);
+		opacity:1;
+	}
+	80%{
+		transform:translate(0px,0px) rotate(30deg);
+		opacity:0.2;
+	}
+	90%{
+		transform:translate(0px,0px) rotate(45deg);
+		opacity:1;
+	}
+	95%{
+		transform:translate(0px,0px) rotate(-45deg);
+		opacity:0.2;
+	}
+	95%{
+		transform:translate(0px,0px) rotate(0deg);
+		opacity:1;
+	}
+}
+/*.floor_2 .f_2_circle ul li.f_2_7 p{
+	animation:middle_circle_7 2s ease-in-out;
+}*/
+.circle_7{
+	background-position:-2072px -149px;
+	animation:middle_circle_7 2s ease-in-out;
+}
